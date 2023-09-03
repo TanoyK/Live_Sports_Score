@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
           centerTitle: true,
           title: const Text("Football Match List",style: TextStyle(fontWeight: FontWeight.w800), ),),
         body: Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.all(32.0),
           child: Column(
             children:  [
               ListTile(
