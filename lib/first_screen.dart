@@ -1,9 +1,5 @@
-
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-
-
 
 class FirstScreen extends StatefulWidget {
   const FirstScreen({super.key});
@@ -15,12 +11,10 @@ class FirstScreen extends StatefulWidget {
 class _FirstScreenState extends State<FirstScreen> {
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+    return Scaffold(
       backgroundColor: Colors.cyanAccent,
       appBar: AppBar(
-        title: const Text(
-            "Bangladesh vs Italy"
-        ),
+        title: const Text("Bangladesh vs Italy"),
       ),
       body: StreamBuilder(
           stream: FirebaseFirestore.instance
@@ -60,7 +54,10 @@ class _FirstScreenState extends State<FirstScreen> {
                             ),
                           ],
                         ),
-                        const Text('vs',style: TextStyle(fontSize: 30),),
+                        const Text(
+                          'vs',
+                          style: TextStyle(fontSize: 30),
+                        ),
                         Column(
                           children: [
                             Text(

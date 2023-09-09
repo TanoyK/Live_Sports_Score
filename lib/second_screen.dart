@@ -1,7 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
-
 class SecondScreen extends StatefulWidget {
   const SecondScreen({super.key});
 
@@ -55,7 +54,10 @@ class _SecondScreenState extends State<SecondScreen> {
                             ),
                           ],
                         ),
-                        const Text('vs', style: TextStyle(fontSize: 30),),
+                        const Text(
+                          'vs',
+                          style: TextStyle(fontSize: 30),
+                        ),
                         Column(
                           children: [
                             Text(

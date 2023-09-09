@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "353217846220",
+    "project_id": "flutter-basic-fire-base",
+    "storage_bucket": "flutter-basic-fire-base.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353217846220:android:70def0d792d7f31309db69",
+        "android_client_info": {
+          "package_name": "com.example.flutter_firebase_sports_14"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353217846220-88svuc0v53eo4mhkmjg45e2lsn8tr7un.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArhNBG-DjKWMiAqSk3mASut56lO7WdkWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353217846220-88svuc0v53eo4mhkmjg45e2lsn8tr7un.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

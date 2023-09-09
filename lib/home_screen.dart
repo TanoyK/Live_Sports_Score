@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_firebase_sports_14/first_screen.dart';
 import 'package:flutter_firebase_sports_14/second_screen.dart';
@@ -17,51 +16,43 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.cyanAccent,
         appBar: AppBar(
           centerTitle: true,
-          title: const Text("Football Match List",style: TextStyle(fontWeight: FontWeight.w800), ),),
+          title: const Text(
+            "Football Match List",
+            style: TextStyle(fontWeight: FontWeight.w800),
+          ),
+        ),
         body: Padding(
           padding: const EdgeInsets.all(32.0),
           child: Column(
-            children:  [
+            children: [
               ListTile(
-                  title: const Text("Bangladesh vs Italy",
-                    style: TextStyle(
-                        fontSize: 22,
-                        fontWeight: FontWeight.w600
-                    ),
+                  title: const Text(
+                    "Bangladesh vs Italy",
+                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.w600),
                   ),
                   trailing: IconButton(
-                      onPressed: (){
+                      onPressed: () {
                         Navigator.push(
-                            context, MaterialPageRoute(
-                            builder:(context) =>const FirstScreen())
-                        );
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const FirstScreen()));
                       },
-                      icon: const Icon(
-                      Icons.arrow_forward_ios
-                      )
-                  )
-              ),
+                      icon: const Icon(Icons.arrow_forward_ios))),
               ListTile(
-                  title: const Text("Portugal vs Spain",
-                    style: TextStyle(
-                        fontSize: 22,
-                        fontWeight: FontWeight.w600
-                    ),
+                  title: const Text(
+                    "Portugal vs Spain",
+                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.w600),
                   ),
                   trailing: IconButton(
-                      onPressed: (){
+                      onPressed: () {
                         Navigator.push(
-                            context, MaterialPageRoute(
-                            builder:(context) =>const SecondScreen()));
-                      }, icon: const Icon(
-                      Icons.arrow_forward_ios
-                  )
-                  )
-              ),
-
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const SecondScreen()));
+                      },
+                      icon: const Icon(Icons.arrow_forward_ios))),
             ],
           ),
-        )
-    );
+        ));
   }
 }
